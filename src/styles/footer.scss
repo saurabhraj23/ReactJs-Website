@@ -1,0 +1,36 @@
+@import "colors";
+
+.footer {
+background-color:$second;
+
+> div {
+  background-color: $third;
+  border-radius: 100px 100px 0 0;
+display: flex;
+// flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+div>h1 {
+  color: $first;
+font: 400 1.6rem $text2;
+}
+
+& >div>p{
+  color: $first;
+  font: 200 1rem $text1;
+}
+
+& >div>h4{
+  color: $first;
+  font: 400 1rem $text1;
+display: inline-block;
+margin: 0 0 10px 6px;
+
+&:hover{
+  color: $second;
+  cursor: pointer;
+}
+}
+}
+}
